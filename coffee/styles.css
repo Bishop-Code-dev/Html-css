@@ -1,0 +1,113 @@
+body{
+    background-color: #dbdbdb;
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+    margin-left: 5em;
+    margin-right: 5em;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+}
+.nav1{
+    cursor: pointer;
+    padding: 10px 15px;
+    text-align: left;
+    color: #090A0B;
+    font-size: 2em;
+}
+.nav1:hover{
+    padding: 20pxpx 17px;
+    background-color: #5D5D5F;
+    border-radius: 10px;
+    color: #7D8594;
+}
+ul li {
+    display: inline-block;;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 1.3em;
+    color: #5D5D5F;
+}
+ul li a:hover{
+    color: #956D57;
+    background-color: #7D8594;
+    border-radius: 10PX;
+}
+.phone{
+    display: inline-block;
+}
+.phone img{
+    height: 2em;
+    width: 2em;
+    border-radius: 30px;
+}
+.phone p{
+    color: #5D5D5F;
+    font-size: 1.3em;
+    padding: 10px 7px 10px 2px;
+}
+.Pphone p:hover{
+    color:#956D57;
+}
+.main2{
+    display: flex;
+    margin-right: 7em;
+    margin-left: 7em;
+    margin-top: 10%;
+    height: 70%;
+}
+.main2 img{
+    height: 600px;
+    width: 500px;
+    margin-left: 10%;
+    object-fit: fill;
+    position: relative;
+}
+.submain{
+    margin-right: 10%;
+    width: 45%;
+}
+.submain .p1{
+    color: #956D57;
+    font-style: italic;
+}
+.submain h2{
+    font-size: 5em;
+    margin: 3px;
+   
+}
+.button1{
+    padding: 8px 10px;
+    background-color: #090a0b;
+    color: #DBDBDB;
+    border-color: #090A0B;
+    font-size: 1em;
+    border-radius: 4px;
+}
+.button2{
+    padding: 8px 10px;
+    color: #090a0b;;
+    border-color: #DBDBDB;
+    font-size: 1em;
+    margin-left: 7px;
+}
+.footer{
+    height: 40px;
+    background-color: #090A0B;
+    position: relative;
+    margin-top: 0px;
+
+}
+.footer p{
+    color: #dbdbdb;
+}
